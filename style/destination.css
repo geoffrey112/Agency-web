@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#buttonBurger{
+  display:none;
+}
+
+#menuBurger{
+  display:none;
+}
+
+.price{
+  display:none;
+}
+
+body{
+  margin:0 250px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color:#004e66;
+  font-size:18px;
+  margin-left:8px;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo{
+  margin-left:12px;
+}
+
+#headerLeft{
+  display:flex;
+  align-items: center;
+  width:fit-content;
+}
+
+.headerRight{
+  display: flex;
+  justify-content: space-between;
+  width:60%;
+  margin-right:30px;
+}
+
+.headerRight>a{
+  text-decoration: none;
+  color:#004e66;
+}
+
+#home{
+  color:#ff5f2e;
+}
+
+.contentTop{
+  display: flex;
+  margin-bottom:20px;
+}
+
+.contentLeft>div:nth-child(1){
+  background: url('https://picsum.photos/id/1026/450/250');
+  height:250px;
+  width:420px;
+}
+
+.contentImg{
+  margin-top:10px;
+}
+
+.line1, .line2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+.photo1{
+  background: url('https://picsum.photos/id/100/100/100');
+  width:100px;
+  height:90px;
+}
+
+.filter{
+  width:100%;
+  height:100%;
+  background-color: #00000094;
+}
+
+.filter>img{
+  margin-left:35px;
+  margin-top:30px;
+}
+
+.photo2{
+  background: url('https://picsum.photos/id/1022/100/100');
+  width:100px;
+  height:90px;
+}
+
+.photo3{
+  background: url('https://picsum.photos/id/1018/100/100');
+  width:100px;
+  height:90px;
+}
+
+.photo4{
+  background: url('https://picsum.photos/id/1015/100/100');
+  width:100px;
+  height:90px;
+}
+
+.photo5{
+  background: url('https://picsum.photos/id/1029/100/100');
+  width:100px;
+  height:90px;
+}
+
+.photo6{
+  background: url('https://picsum.photos/id/1035/100/100');
+  width:100px;
+  height:90px;
+}
+
+.photo7{
+  background: url('https://picsum.photos/id/1036/100/100');
+  width:100px;
+  height:90px;
+}
+
+.photo8{
+  background: url('https://picsum.photos/id/1037/100/100');
+  width:100px;
+  height:90px;
+}
+
+.line3{
+  display:flex;
+}
+
+.photo9{
+  background: url('https://picsum.photos/id/1041/100/100');
+  width:100px;
+  height:90px;
+  margin-right: 7px;
+}
+
+.photo10{
+  background: url('https://picsum.photos/id/1043/100/100');
+  width:100px;
+  height:90px;
+}
+
+.contentRight{
+  width:100%;
+  height:fit-content;
+  margin-left:20px;
+  background-color: #e0c9b993;
+}
+
+.paris{
+  font-size:37px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.contentRight>span{
+  font-weight: bold;
+}
+
+.contentRight>img{
+  transform:translateY(2px);
+  background-color: black;
+}
+
+.italic{
+  font-style: italic;
+  margin-bottom:-3px;
+}
+
+.lorem{
+  text-align:justify;
+  line-height: 25px;
+}
+
+.contentButton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contentButton>button{
+  background-color: #ff5f2e;
+  border:none;
+  border-radius: 3px;
+  width:160px;
+  height:35px;
+  color:white;
+  font-size:15px;
+}
+
+.contentButton>p{
+  background-color: #fcbe32;
+  padding:10px 15px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.imgTop{
+  background: url('https://picsum.photos/id/110/1450/200');
+  height:200px;
+  margin-bottom:20px;
+}
+
+.filterTop{
+  background-color: #00000094;
+  width:100%;
+  height:100%;
+}
+
+.filterTop>div{
+  color:white;
+  text-align: center;
+}
+
+.filterTop>div>h2{
+  font-size: 50px;
+  margin-bottom:0px;
+  padding-top:55px;
+  letter-spacing: 5px;
+}
+
+.contentTxt>h3{
+  border-left:4px solid #ff4800;
+  padding:8px;
+  font-size:22px;
+  margin-bottom: 10px;
+}
+
+.contentTxt>p{
+  text-align:justify;
+  line-height: 28px;
+}
+
+.contentBottom{
+  font-size: 20px;
+  margin-bottom:20px;
+}
+
+.contentBottom>h2{
+  text-align: center;
+  margin-top:20px;
+}
+
+.contentElemBottom{
+  display:flex;
+  justify-content: space-between;
+}
+
+.elem1{
+  width:310px;
+  height:220px;
+  background: url('https://picsum.photos/id/116/310/220');
+}
+
+.elem1>h3, .elem2>h3, .elem3>h3{
+  color:#ff5f2e;
+  margin-left:25px;
+}
+
+.flex{
+  display:flex;
+  justify-content: space-between;
+  background:linear-gradient(#ffffff00, #dadada);
+  margin-top:86px;
+  height:82px;
+}
+
+.flexLeft{
+  align-self: center;
+  padding-left:20px;
+}
+
+
+.flexLeft>p{
+  font-size:18px;
+  font-weight: bold;
+  margin-bottom:2px;
+}
+
+.flexLeft>span{
+  font-style: italic;
+}
+
+.flexRight>p{
+  background-color: #fcbe32;
+  font-weight: bold;
+  border-radius:3px;
+  padding:8px 13px;
+}
+
+.elem2{
+  width:310px;
+  height:220px;
+  background: url('https://picsum.photos/id/118/310/220');
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.elem3{
+  width:310px;
+  height:220px;
+  background: url('https://picsum.photos/id/12/310/220');
+}
+
+.footerTop{
+  background-color:#004e66;
+  height:120px;
+  display:flex;
+}
+
+.elemFooterLeft{
+  display:flex;
+  justify-content: space-around;
+  width:50%;
+}
+
+.elemFooterRight{
+  display:flex;
+  justify-content: space-around;
+  width:50%;
+
+}
+
+.imgFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  margin-top:20px;
+}
+
+.imgFooter>h3{
+  font-size:15px;
+}
+
+.footerMiddle{
+  background-color: #e1eef6;
+  height:200px;
+  display: flex;
+  justify-content: space-between;
+  padding-right:100px;
+  padding-left:15px;
+}
+
+.txtFooter{
+  display: flex;
+  flex-direction: column;
+  width:fit-content;
+  height: fit-content;
+  margin-top:20px;
+  margin-left:5px;
+}
+
+.txtFooter>span, .txtFooter>a{
+  margin-bottom: 8px;
+}
+
+.blueTxt{
+  color:#004e66;
+  text-decoration: none;
+}
+
+.footerBottom{
+  height:25px;
+  background-color:#ff5f2e;
+  margin-bottom:40px;
+}
+
+/*** Responsive ***/
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body{
+    margin:0 150px; 
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991.98px){
+  body{
+    margin:0 100px;
+  }
+
+  .contentLeft{
+    width:320px;
+  }
+
+  .contentLeft>div:nth-child(1){
+    background: url('https://picsum.photos/id/1026/350/260');
+    width:320px;
+  }
+
+  .photo1, .photo2, .photo3, .photo4, 
+  .photo5, .photo6, .photo7, .photo8, 
+  .photo9, .photo10{
+    margin:2px;
+  }
+
+  .filter>img{
+    width:25px;
+    margin-left:28px;
+    margin-top:25px;
+  }
+
+  .photo1{
+    background: url('https://picsum.photos/id/100/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo2{
+    background: url('https://picsum.photos/id/1022/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo3{
+    background: url('https://picsum.photos/id/1018/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo4{
+    background: url('https://picsum.photos/id/1015/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo5{
+    background: url('https://picsum.photos/id/1029/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo6{
+    background: url('https://picsum.photos/id/1035/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo7{
+    background: url('https://picsum.photos/id/1036/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo8{
+    background: url('https://picsum.photos/id/1037/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo9{
+    background: url('https://picsum.photos/id/1041/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .photo10{
+    background: url('https://picsum.photos/id/1043/100/100');
+    width:80px;
+    height:70px;
+  }
+
+  .imgFooter>img{
+    width:50px;
+  }
+
+  .imgFooter>h3{
+    font-size:13px;
+  }
+
+  .footerMiddle{
+    padding-right: 50px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px){
+  body{
+    margin:0;
+  }
+
+  header{
+    display: block;
+  }
+
+  #headerLeft{
+    margin:auto;  
+  }
+
+  #headerLeft>h1{
+    font-size:23px;
+  }
+
+  .logo{
+    margin-right:10px;
+  }
+
+  #buttonBurger{
+    display:block;
+    margin-right:10px;
+  }
+
+  /* Crée en js */
+  #menuBurger{
+    background-color:#004e66;
+    text-align: center;
+    width:250px;
+    display:block;
+    margin:-20px auto 0 auto;
+  }
+
+  #list-menu{
+    list-style: none;
+    padding:8px 0;
+  }
+
+  #list-menu>li>a{
+    text-decoration: none;
+    color:white;
+    line-height: 0;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+  }
+
+  #list-menu>li>a:hover{
+    font-size:20px;
+    
+  }
+  /****/
+
+  .headerRight{
+    display: none;
+  }
+
+  .contentTop{
+    display:flex;
+    flex-direction:column-reverse;
+    width:450px;
+    margin:auto;
+  }
+
+  .contentRight{
+    margin-left:0px;
+    margin-bottom: 20px;
+  }
+
+  .contentRight>div:nth-child(1){
+    width:80%;
+    display:inline-block;
+  }
+
+  .contentRight>div:nth-last-of-type(2){
+    background-color: #fcbe32;
+    padding:12px 15px;
+    width:fit-content;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+
+  .price{
+    display:inline-block;
+  }
+
+  .contentButton{
+    width:fit-content;
+    margin:15px auto;
+  }
+
+  .contentButton>button{
+    width:400px;
+  }
+
+  .contentButton>p{
+    display:none;
+  }
+
+  .contentLeft>div:nth-child(1){
+    margin:auto;
+    width:100%;
+  }
+
+  .contentImg{
+    padding:8px;
+  }
+
+  .contentTxt{
+    width:600px;
+    margin:auto;
+  }
+
+  .contentElemBottom{
+    flex-direction: column;
+    width:500px;
+    margin:auto;
+  }
+
+  .elem1, .elem2, .elem3{
+    margin:auto;
+    width:400px;
+    height:300px;
+    margin-bottom: 20px;
+  }
+
+  .elem1{
+    background: url('https://picsum.photos/id/116/400/300');
+  }
+
+  .elem2{
+    background: url('https://picsum.photos/id/118/400/300');
+  }
+
+  .elem3{
+    background: url('https://picsum.photos/id/12/400/300');
+  }
+
+  .flex{
+    margin-top:167px;
+  }
+
+  .footerTop{
+    width:480px;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:auto;
+  }
+
+  .elemFooterLeft, .elemFooterRight{
+    width:100%;
+  }
+
+  .imgFooter{
+    width:150px;
+    text-align: center;
+  }
+
+  .footerMiddle{
+    width:480px;
+    display:flex;
+    flex-direction:column;
+    height:fit-content;
+    text-align:center;
+    margin:auto;
+    padding:0;
+  }
+
+  .txtFooter{
+    margin:10px auto;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .sizeBold{
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .footerBottom{
+    width:480px;
+    margin:auto;
+    margin-bottom:30px;
+  }
+
+}
