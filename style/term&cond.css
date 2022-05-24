@@ -223,13 +223,14 @@ header{
     margin-right:10px;
   }
 
-  /* Crée en js */
+/*** Crée en js ***/
   #menuBurger{
     background-color:#004e66;
     text-align: center;
     width:250px;
     display:block;
     margin:-20px auto 0 auto;
+    overflow:clip;
   }
 
   #list-menu{
@@ -248,7 +249,7 @@ header{
   #list-menu>li>a:hover{
     font-size:20px;
   }
-  /****/
+/******/
 
   .headerRight{
     display: none;

@@ -5,7 +5,9 @@
 }
 
 #menuBurger{
-  display:none;
+  visibility: hidden;
+  position: absolute;
+  height:0;
 }
 
 body{
@@ -115,6 +117,12 @@ select{
 .right{
   background:url('https://picsum.photos/id/164/400/300/?blur=2');
   width: 480px;
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
+}
+
+.right:hover{
+  box-shadow: 4px 4px 6px 0 black;
 }
 
 .right>h3{
@@ -142,8 +150,8 @@ select{
   height:20px;
   padding:5px 11px;
   border-radius: 3px;
-}
 
+}
 
 .titleRight{
   font-weight: bold;
@@ -182,6 +190,12 @@ h2{
   width:50%;
   height:200px;
   margin:8px 8px;
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
+}
+
+.elemMiddle:hover{
+  box-shadow: 4px 4px 6px 0 black;
 }
 
 .photo1{
@@ -326,9 +340,7 @@ h2{
   margin-bottom:40px;
 }
 
-
 /*** Responsive ***/
-
 /* Large */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body{
@@ -367,7 +379,7 @@ h2{
   }
 
   #headerLeft{
-    margin:auto;  
+    margin:auto;
   }
 
   #headerLeft>h1{
@@ -383,13 +395,16 @@ h2{
     margin-right:10px;
   }
 
-  /* Crée en js */
+/**** Create in js ****/
   #menuBurger{
     background-color:#004e66;
     text-align: center;
     width:250px;
-    display:block;
-    margin:-20px auto 0 auto;
+    height: 150px;
+    margin:0 auto 20px auto;
+    visibility: visible;
+    position: relative;
+    overflow:clip;
   }
 
   #list-menu{
@@ -402,14 +417,14 @@ h2{
     color:white;
     line-height: 0;
     transition-property: font-size;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
   }
 
   #list-menu>li>a:hover{
-    font-size:20px;
-    
+    font-size:19px;
   }
-  /****/
+
+/******/
 
   .headerRight{
     display: none;

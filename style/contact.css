@@ -299,13 +299,14 @@ textarea{
     margin-right:10px;
   }
 
-  /* Crée en js */
+/*** Crée en js ***/
   #menuBurger{
     background-color:#004e66;
     text-align: center;
     width:250px;
     display:block;
     margin:-20px auto 0 auto;
+    overflow:clip;
   }
 
   #list-menu{
@@ -324,7 +325,7 @@ textarea{
   #list-menu>li>a:hover{
     font-size:20px;
   }
-  /****/
+/******/
 
   .imgTop{
     background:url('https://picsum.photos/id/1/1000/200');

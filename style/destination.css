@@ -263,6 +263,8 @@ header{
   width:310px;
   height:220px;
   background: url('https://picsum.photos/id/116/310/220');
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
 }
 
 .elem1>h3, .elem2>h3, .elem3>h3{
@@ -307,12 +309,20 @@ header{
   background: url('https://picsum.photos/id/118/310/220');
   margin-left:10px;
   margin-right:10px;
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
 }
 
 .elem3{
   width:310px;
   height:220px;
   background: url('https://picsum.photos/id/12/310/220');
+  transition-duration: 0.5s;
+  transition-property: box-shadow;
+}
+
+.elem1:hover,.elem2:hover,.elem3:hover{
+  box-shadow: 4px 4px 6px 0 black;
 }
 
 .footerTop{
@@ -515,13 +525,14 @@ header{
     margin-right:10px;
   }
 
-  /* Crée en js */
+/*** Crée en js ***/
   #menuBurger{
     background-color:#004e66;
     text-align: center;
     width:250px;
     display:block;
     margin:-20px auto 0 auto;
+    overflow:clip;
   }
 
   #list-menu{
@@ -541,7 +552,7 @@ header{
     font-size:20px;
     
   }
-  /****/
+/******/
 
   .headerRight{
     display: none;
